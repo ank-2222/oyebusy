@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+.container{
+    font-family: 'Mulish', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.home-div{
+    width: 50%;
+  height:600px;
+}
+.home-search{
+    background: url('../images/delivery-man-red-uniform-medical-mask-gloves-pointing-fingers-away-looking-confident\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+.search{
+    border: none;
+    padding: 15px 20px;
+    margin: 10px;
+    width: 60%;
+
+}
+
+.scroll-pic{
+    max-width: 250px;
+    margin: 0 10px;
+}
+.scroll{
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+@media screen and (max-width:486px) {
+
+    .home-search{
+        display: none;
+    }
+    .home-div{
+        width: 100%;
+    }
+    
+}
